@@ -1,1 +1,4 @@
 theme: jekyll-theme-cayman
+title: Super Title
+description: This is just to learn how to use github pages with jekyll
+google_analytics: UA-56016173-3
