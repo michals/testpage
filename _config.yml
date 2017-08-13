@@ -1,4 +1,31 @@
-theme: jekyll-theme-cayman
-title: Super Title
-description: This is just to learn how to use github pages with jekyll
+#theme: jekyll-theme-cayman
+
+# Setup
+title:        Geometria Wszechświata
+tagline:      Jakiś podtytuł
+baseurl:      ""
+paginate:     1
 google_analytics: UA-56016173-3
+
+# About/contact
+author:
+  name:       Jiří Šrajer
+  url:        http://improbable.info
+
+# Plugins
+plugins:
+  - jekyll-paginate
+
+#Others
+markdown: kramdown
+
+#Custom
+parts:
+- title: O Autorze
+  category: o-autorze
+- title: Prawdopodobnie wszystko jest inaczej
+  category: prawdopodobnie
+- title: Magia Czasoprzestrzeni
+  category: magia
+- title: Dla ambitnych
+  category: dla-ambitnych
