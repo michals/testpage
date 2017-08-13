@@ -15,6 +15,20 @@ Syntax highlighted code block
 ## Header 2
 ### Header 3
 
+### Site:
+{% for s in site %}
+- {{ s }}
+{% endfor %}
+
+{{site}}
+
+### Page:
+{% for p in page %}
+- {{ p }}
+{% endfor %}
+
+{{page}}
+
 - Bulleted
 - List
 
